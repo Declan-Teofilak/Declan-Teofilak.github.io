@@ -1,12 +1,35 @@
-<div style="align-items: center;">
-    <h1>Hello and Welcome to my Page!</h1>
-    <P>My name is Declan Teofilak. I am a professional software engineer, hobbyist bike rider, and bad espresso maker (but very good at drinking it!)</P>    
-</div>
-<div style="float: right;">
-    <h2>This is the guest book section</h2>
-</div>
-<br>
-<div>
-    <h2>Links</h2>
-    <a href="https://www.linkedin.com/in/declan-teofilak-287893171/">LinkedId</a>
-</div>
+<style>
+    .body {
+        background-color: #4d4d4d;
+        color: #d5d0d0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .links {
+        background-color: blanchedalmond;
+        color: aquamarine;
+        width: fit-content;
+    }
+</style>
+<script>
+    function btn_click() {
+        $(".check-in").hide();
+    }
+</script>
+<body class="body">
+    <div style="text-align: center;">
+        <h1>Hello and Welcome to my Page!</h1>
+        <P>My name is Declan Teofilak. I am a professional software engineer, hobbyist bike rider, and bad espresso maker (but very good at drinking it!)</P>    
+        <img src="pics\flowers.jpg" alt="flowers" width="600" height="400">
+        <img src="pics\succulent.jpg" alt="succulent" width="600" height="400">
+    </div>
+    <div class="check-in" style="float: right;">
+        <h2>Sign the Guestbook (like we are in the early 2000's)</h2>
+        <textarea></textarea>
+        <button title="Check In!" onclick="btn_click"></button>
+    </div>
+    <br>
+    <div class="links">
+        <h2 style="text-align: center;">Links</h2>
+        <a href="https://www.linkedin.com/in/declan-teofilak-287893171/">LinkedIn</a>
+    </div>
+</body>
