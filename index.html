@@ -22,6 +22,12 @@
         <img src="pics\flowers.jpg" alt="flowers" width="600" height="400">
         <img src="pics\succulent.jpg" alt="succulent" width="600" height="400">
     </div>
+    <div>
+        <h3>About this page</h3>
+        <p>I was able to create basic static html website and host it with the click of a button through AWS Amplify, but decided to change the repo name as it was originally hosted as. GitHub pages site. I wanted the repo name to be unique for clarity and so I could build out a separate GitHub pages site if I wanted to in the future using different resources.
+
+            This led to the amplify CI/CD breaking. I researched this issue extensively, and was greeted with multiple cases that said “sometimes the repo name can be changed, sometimes it can’t”. Not ideal. While doing this research on how to get my newly named repo connected back to the build pipeline, the standout was that many people used S3 and Cloudfront distribution instead of Amplify. I appreciated the simplicity of Amplify, but at this point I knew that having more direct control over the components of my site and CI/CD was more important, so I decided to migrate my efforts to S3 and Cloudfront.</p>
+    </div>
     <div class="check-in" style="float: right;">
         <h2>Sign the Guestbook (like we are in the early 2000's)</h2>
         <textarea></textarea>
